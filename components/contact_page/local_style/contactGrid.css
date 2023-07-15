@@ -1,0 +1,57 @@
+#contactGrid {
+    display: grid;
+    /* left: 0; */
+    /* width: 100vw; */
+    /* min-width: 1500px; */
+    grid-template-columns: auto 1fr;
+    grid-auto-rows: minmax(min-content, max-content);
+    /* align-items: center; */
+    /* justify-items: left; */
+    margin: 50px auto 50px 5vw;
+    z-index: 0;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ TITLE DISPLAY ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#contactSubTitle {
+    /* justify-self: center; */
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#contactTitle {
+    grid-column: 1;
+    grid-row: 2;
+    width: 25vw;
+    margin: 50px 0 50px 0;
+    /* float:left; */
+}
+
+#contactBlock {
+    grid-column: 1;
+    grid-row: 3;
+    width: 40vw;
+    max-width: 600px;
+    min-width: 400px;
+    background: #B094FF;
+    padding: 50px 70px 50px 70px;
+}
+
+#contactSupportText {
+    grid-column: 2;
+    grid-row: 3;
+    height: 100%;
+    max-width: 480px;
+    min-width: 300px;
+    margin: 60px 0 0 60px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    pointer-events: none;
+}
+
+.contactDiv {
+    background: #ffffff;
+    height: 8px;
+    border-radius: 10px;
+    margin: -3px 0 50px 0;
+}

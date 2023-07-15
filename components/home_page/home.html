@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+
+        <link rel="stylesheet" href="../../../styles/style.css">
+        <link rel="stylesheet" href="./local_style/mainGrid.css">
+        <link rel="stylesheet" href="../../../styles/switchStyle.css">
+
+        <script src="/../../../script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        
+        <title>Synkra</title>
+    </head>
+
+    <body>
+
+        <section id="header"> 
+            <a href="../home_page/home.html">HOME</a>
+            <a href="../about_page/about.html">ABOUT</a>
+            <a href="../contact_page/contact.html">CONTACT</a>
+        </section>
+
+        <section id="mainGrid"></section>
+        <section id="footer"></section>
+
+        <!-- <main>
+            <section class="parallax background">
+                <section id="header"> 
+                    <a href="../home_page/home.html">HOME</a>
+                    <a href="../about_page/about.html">ABOUT</a>
+                    <a href="../contact_page/contact.html">CONTACT</a>
+                </section>
+                <section id="mainGrid"></section>
+            </section>
+        </main> -->
+    </body>
+
+      <!--MAIN GRID IMPORT-->
+    <script>
+        $(document).ready(function() {
+          $('#mainGrid').load("mainGrid.html");
+        });
+    </script>
+</html>

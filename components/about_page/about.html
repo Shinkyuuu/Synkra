@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../../../styles/style.css">
+        <link rel="stylesheet" href="./local_style/frame_style.css">
+
+        <link rel="stylesheet" href="./local_style/aboutGrid.css">
+
+        <script src="/../../../script.js"></script>
+        <script src="./local_script/frame_script.js" type="module"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        
+        <title>Synkra</title>
+    </head>
+
+    <body>
+        <section id="header"> 
+            <a href="../home_page/home.html">HOME</a>
+            <a href="../about_page/about.html">ABOUT</a>
+            <a href="../contact_page/contact.html">CONTACT</a>
+        </section>
+        
+        <div id="frameFrame">
+            <div id="frame"></div>
+        </div>
+        <section id="aboutGrid"></section>
+
+        <section id="footer"></section>
+
+
+    </body>
+
+    <script>
+        $(document).ready(function() {
+            $('#aboutGrid').load("about_grid.html");
+        });
+    </script>
+</html>
